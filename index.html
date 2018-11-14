@@ -1,116 +1,230 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Company Name</title>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/1.2.0/css/uikit.gradient.min.css" rel="stylesheet" type="text/css">
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<body>
-		<div class="uk-container uk-container-center">
-			<div class="uk-grid">
-				<div id="navigation" class="uk-width-medium-1-4">
-					<h1 class="nav-header">LiquidLab</h1>
-					<a class="nav-header" href="https://liquid-lab.tokyo">LiquidLab</a>
-					<ul class="uk-nav uk-nav-side">					<li><a href="#factsheet">Factsheet</a></li>
-						<li><a href="#description">Description</a></li>
-						<li><a href="#history">History</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#trailers">Videos</a></li>
-						<li><a href="#images">Images</a></li>
-						<li><a href="#logo">Logo &amp; Icon</a></li><li><a href="#awards">Awards &amp; Recognition</a></li><li><a href="#quotes">Selected Articles</a></li><li><a href="#links">Additional Links</a></li>						<li><a href="#credits">Team</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-				<div id="content" class="uk-width-medium-3-4"><img src="images/header.png" class="header">					<div class="uk-grid">
-						<div class="uk-width-medium-2-6">
-							<h2 id="factsheet">Factsheet</h2>
-							<p>
-								<strong>Developer:</strong><br/>
-								<a href="">Company Name</a><br/>
-								Based in Cityville, Metropolisland
-							</p>
-							<p>
-								<strong>Founding date:</strong><br/>
-								September 1, 2010
-							</p>
-							<p>
-								<strong>Website:</strong><br/>
-								<a href="http://website.com">website.com</a>
-							</p>
-							<p>
-								<strong>Press / Business contact:</strong><br/>
-								<a href="mailto:liquid.lab.jp@gmail.com">liquid.lab.jp@gmail.com</a>
-							</p>
-							<p>
-								<strong>Social:</strong><br/><a href="http://twitter.com/liquid-lab-jp">twitter.com/liquid-lab-jp</a><br/><a href="http://facebook.com/MyCompanyName">facebook.com/MyCompanyName</a><br/><a href="http://callto:MySkypeName">Skype</a><br/>							</p>
-							<p>
-							<strong>Releases:</strong><br /><a href="template.html">Template</a><br />							</p>
-							<p><strong>Address:</strong><br/>Address Line 1<br/>Address Line 2<br/>Address Line 3<br/>							</p>
-							<p>
-								<strong>Phone:</strong><br/>
-								+00 (1) 22 33 44 55 66
-							</p>
-						</div>
-						<div class="uk-width-medium-4-6">
-							<h2 id="description">Description</h2>
-							<p>
-		We're games studio and we make games. We're also capable of editing XML files.
-	</p>
-							<h2 id="history">History</h2><strong>Early history</strong>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</p><strong>After that</strong>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem dui, volutpat eu adipiscing sed, rutrum aliquam lacus. Proin sollicitudin consequat dolor id dignissim. Aliquam sem turpis, sagittis lobortis viverra eget, varius vitae nunc. Proin ac lacus porttitor dui sollicitudin elementum. Nulla ut hendrerit est. Fusce vitae arcu erat, vel molestie est. Proin et placerat justo. Proin placerat arcu massa, eu blandit leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam eu lorem sed massa lobortis hendrerit vitae vel odio. Maecenas eget pulvinar tortor. Nunc vitae nisl ac odio bibendum luctus ac a leo. Suspendisse auctor elit et velit sagittis vehicula. Maecenas faucibus blandit rutrum. Duis et sem nibh. Vestibulum placerat elit et dui rhoncus accumsan.</p>							<h2 id="projects">Projects</h2>
-							<ul><li><a href="template.html">Template</a></li>							</ul>
-						</div>
+	<title>LiquidLab</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/1.2.0/css/uikit.gradient.min.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	<!-- twitter card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@liquid_lab_jp" />
+	<meta name="twitter:title" content="LiquidLab(リキッドラボ)-プレスリリース" />
+	<meta name="twitter:description" content="自作リキッドベイパーのためのレシピ共有サイト" />
+	<meta name="twitter:image" content="https://liquid-lab.github.io/press-release/logo.png" />
+	<meta name="twitter:url" content="https://liquid-lab.github.io/press-release/" />
+</head>
+
+<body>
+	<div class="uk-container uk-container-center">
+		<div class="uk-grid">
+			<div id="navigation" class="uk-width-medium-1-4">
+				<h1 class="nav-header">LiquidLab</h1>
+				<a class="nav-header" href="https://liquid-lab.tokyo">LiquidLab</a>
+				<ul class="uk-nav uk-nav-side">
+					<li><a href="#factsheet">Factsheet</a></li>
+					<li><a href="#description">Description</a></li>
+					<li><a href="#history">History</a></li>
+					<li><a href="#trailers">Videos</a></li>
+					<li><a href="#images">Images</a></li>
+					<li><a href="#logo">Logo &amp; Icon</a></li>
+					<li><a href="#links">Additional Links</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div id="content" class="uk-width-medium-3-4"><img src="images/header.png" class="header">
+				<div class="uk-grid">
+					<div class="uk-width-medium-2-6">
+						<h2 id="factsheet">Factsheet</h2>
+						<p>
+							<strong>開発者:</strong><br />
+							<a href="">LiquidLab</a><br />
+						</p>
+						<p>
+							<strong>公開日:</strong><br />
+							2018/11/14
+						</p>
+						<p>
+							<strong>ホームページ:</strong><br />
+							<a href="https://liquid-lab.tokyo">liquid-lab.tokyo</a>
+						</p>
+						<p>
+							<strong>連絡先:</strong><br />
+							<a href="mailto:liquid.lab.jp@gmail.com">liquid.lab.jp@gmail.com</a>
+						</p>
+						<p>
+							<strong>Twitter:</strong><br /><a href="http://twitter.com/liquid_lab_jp">twitter.com/liquid_lab_jp</a><br /><a href="http://facebook.com/MyCompanyName">facebook.com/MyCompanyName</a><br /><a href="http://callto:MySkypeName">Skype</a><br />
+						</p>
 					</div>
+					<div class="uk-width-medium-4-6">
+						<h2 id="description">サイト概要</h2>
+						<p>
+							リキッドラボは、電子タバコ用自作リキッドを自作する人のためのサイトです。
+							レシピの作成や、公開、意見交換をすることができます。
+						</p>
+						<h2 id="history">自作リキッドとは</h2>
+						<p>
+							自作リキッドとは、電子タバコ用の吸引液をグリセリンと香料を混ぜて自作することをいいます。
 
-					<hr>
+							市販のリキッドにはない味や、自分の好みに合った味を手軽に作ることができます。
 
-					<h2 id="trailers">Videos</h2><p><strong>This video is nice</strong>&nbsp;<a href="http://www.youtube.com/watch?v=7jQbITg0MSk">YouTube</a><div class="uk-responsive-width iframe-container">
-		<iframe src="http://www.youtube.com/embed/7jQbITg0MSk" frameborder="0" allowfullscreen></iframe>
-</div></p><p><strong>This one too</strong>&nbsp;<a href="http://www.youtube.com/watch?v=0CevOaYrYDA">YouTube</a>, <a href="http://www.vimeo.com/12536488">Vimeo</a><div class="uk-responsive-width iframe-container">
-		<iframe src="http://www.youtube.com/embed/0CevOaYrYDA" frameborder="0" allowfullscreen></iframe>
-</div></p>					<hr>
+							また、市販のリキッドに比べ、費用も安く、リキッドの値段を気にすること無く爆炎セッティングを楽しむことができます。
+						</p>
+						<h2 id="history">きっかけ</h2>
+						<p>
+							電子タバコが好きで、自作リキッドも作っていたのですが、日本の自作リキッドユーザーが集まるレシピサイトが無く、情報収集にとても苦労しました。
+							日本人が集まる自作リキッドレシピサイトができることで、少しでも自作リキッドユーザーが増えてくれたらと思いこのサイトを作りました。
+						</p>
+						<h2 id="projects">特徴</h2>
+						<strong>レシピ変更履歴の自動保存</strong>
+						<p>
+							自分好みのアレンジの詳細が一目瞭然。
 
-					<h2 id="images">Images</h2><a href="images/images.zip"><div class="uk-alert">download all screenshots &amp; photos as .zip (122KB)</div></a><div class="uk-grid images"><div class="uk-width-medium-1-2"><a href="images/screenshot1.png"><img src="images/screenshot1.png" alt="screenshot1.png" /></a></div></div>					<p class="images-text">There are far more images available for Company Name, but these are the ones we felt would be most useful to you. If you have specific requests, please do <a href="#contact">contact us</a>!</p>
+							これまで作ったレシピの履歴を全て残せます。
 
-					<hr>
+							新しいリキッドを作るときに以前のレシピを参考にできます。
 
-					<h2 id="logo">Logo &amp; Icon</h2><a href="images/logo.zip"><div class="uk-alert">download logo files as .zip (57KB)</div></a><div class="uk-grid images"><div class="uk-width-medium-1-2"><a href="images/logo.png"><img src="images/logo.png" alt="logo" /></a></div><div class="uk-width-medium-1-2"><a href="images/icon.png"><img src="images/icon.png" alt="logo" /></a></div></div>					<hr><h2 id="awards">Awards &amp; Recognition</h2>
-					<ul><li>"Winner in this highly relevant contest." - <cite>Award Location, 20 October, 1989</cite></li><li>"Nomination for this prestigious award." - <cite>Award Ceremony, 4 December, 1991</cite></li><li>"Winner in this highly relevant contest." - <cite>Award Location, 20 October, 1989</cite></li><li>"Nomination for this prestigious award." - <cite>Award Ceremony, 4 December, 1991</cite></li></ul><hr>					<h2 id="quotes">Selected Articles</h2>
-						<ul><li>"This is a rather insignificant quote by a highly important person."<br/><cite>- Person Name, <a href="http://website.com/">Website</a></cite></li></li><li>"An extremely positive quote from a rather insignificant person. Also great."<br/><cite>- Some Guy, <a href="http://geocities.blog.com/">This Page Is Visited By 12 Visitors A Month</a></cite></li></li><li>"I pretend to love this game even though I do not actually understand it."<br/><cite>- Pretentious Bastard, <a href="http://art.tumblr.com/">Artsy Page</a></cite></li></li><li>"HOLY SHIT SO AMAZING"<br/><cite>- Caps Guy, <a href="http://thispage.net/angrytube/">Angry Review</a></cite></li></li></ul><hr><h2 id="links">Additional Links</h2><p>
-		<strong>Company Link #1</strong><br/>
-		This link is a link that might be useful. You can check it out at <a href="http://somemusicsite.com/thislink" alt="somemusicsite.com/thislink">somemusicsite.com</a>.
-	</p><hr>					<div class="uk-grid">
-						<div class="uk-width-medium-1-2">
-							<h2 id="credits">Team &amp; Repeating Collaborator</h2><p><strong>John Doe</strong><br/>Artist, Freelancer</p><p><strong>Oliver Twist</strong><br/><a href="http://olivertwist.com/">Artist, Freelancer</a></p><p><strong>Jane Doette</strong><br/><a href="http://olivertwist.com/">Music, Freelancer</a></p>						</div>
-						<div class="uk-width-medium-1-2">
-							<h2 id="contact">Contact</h2><p><strong>Inquiries</strong><br/><a href="mailto:rami@vlambeer.com">rami@vlambeer.com</a></p><p><strong>Twitter</strong><br/><a href="http://twitter.com/MyCompanyName">twitter.com/MyCompanyName</a></p><p><strong>Facebook</strong><br/><a href="http://facebook.com/MyCompanyName">facebook.com/MyCompanyName</a></p><p><strong>Web</strong><br/><a href="http://MyCompanyWebsite.com">MyCompanyWebsite.com</a></p>						</div>
+							フレーバーの分量もしっかりメモできます。
+						</p>
+						<strong>作成したレシピの公開
+						</strong>
+						<p>
+							作ったレシピを公開することができます。
+							公開したレシピは、他のユーザーから評価してもらうことができます。
+							公開されているレシピをもとに、自分好みにレシピをカスタマイズすることができます。
+						</p>
+						<strong>AIによるレシピ先姓支援機能
+						</strong>
+						<p>
+
+							レシピ作成支援AIのサポートで、初心者の方でも簡単にレシピを作成することができます。
+
+							AIが美味しいリキッドの分量を教えます。
+
+							AIがリキッドのベストな組み合わせを教えます。
+						</p>
+						<strong>フレーバー分析機能</strong>
+						<p>
+							フレーバーの使用量を、LiquidLabに登録されているレシピデータから統計的に分析できます。
+							レシピを作成する際の指標として使用することができます。
+						</p>
+						<strong>レシピ検索機能</strong>
+						<p>
+							使用フレーバー、レシピに付けられたタグ、レシピ名から、レシピを検索できます。
+							レシピ投稿日時、レシピ評価、レシピを評価した人の数から、レシピを並べ替えることができます。
+						</p>
 					</div>
-
-					<hr>
-
-					<p><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="credits.html">these fine folks</a></p>
 				</div>
+
+				<hr>
+
+				<h2 id="trailers">ビデオ</h2>
+				<p><strong>使用方法</strong>&nbsp;<a href="https://www.youtube.com/watch?v=HN8uLpocgp0">YouTube</a>
+					<div class="uk-responsive-width iframe-container">
+						<iframe src="http://www.youtube.com/embed/HN8uLpocgp0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</p>
+				<hr>
+
+				<h2 id="images">スクリーンショット</h2><a href="images/images.zip">
+					<div class="uk-alert">zipファイルでダウンロード</div>
+				</a>
+				<div class="uk-grid images">
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot1.jpg">
+							<img src="images/screenshot1.jpg" alt="screenshot1.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot2.jpg">
+							<img src="images/screenshot2.jpg" alt="screenshot2.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot3.jpg">
+							<img src="images/screenshot3.jpg" alt="screenshot3.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot4.jpg">
+							<img src="images/screenshot4.jpg" alt="screenshot4.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot5.jpg">
+							<img src="images/screenshot5.jpg" alt="screenshot5.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot6.jpg">
+							<img src="images/screenshot6.jpg" alt="screenshot6.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot7.jpg">
+							<img src="images/screenshot7.jpg" alt="screenshot7.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot8.jpg">
+							<img src="images/screenshot8.jpg" alt="screenshot8.jpg" />
+						</a>
+					</div>
+					<div class="uk-width-medium-1-2">
+						<a href="images/screenshot9.jpg">
+							<img src="images/screenshot9.jpg" alt="screenshot9.jpg" />
+						</a>
+					</div>
+				</div>
+				<p class="images-text">
+					こちらに掲載されている画像は自由に使っていただいて構いません。
+					また、ご連絡いただければ、より多くの画像をご提供することができます。
+					<a href="mailto:liquid.lab.jp@gmail.com">連絡する</a>
+				</p>
+
+				<hr>
+
+				<h2 id="logo">ロゴ &amp; アイコン</h2><a href="images/logo.zip">
+					<div class="uk-alert">zipファイルでダウンロード</div>
+				</a>
+				<div class="uk-grid images">
+					<div class="uk-width-medium-1-2"><a href="images/logo.png"><img src="images/logo.png" alt="logo" /></a></div>
+					<div class="uk-width-medium-1-2"><a href="images/logo.svg"><img src="images/logo.svg" alt="logo" /></a></div>
+				</div>
+				<hr>
+				<div class="uk-grid">
+					<div class="uk-width-medium-1-2">
+						<h2 id="contact">連絡先</h2>
+						<p><strong>メール</strong><br /><a href="mailto:liquid.lab.jp@gmail.com">rami@vlambeer.com</a></p>
+						<p><strong>Twitter</strong><br /><a href="http://twitter.com/liquid_lab_jp">twitter.com/liquid_lab_jp</a></p>
+						<p><strong>ホームページ</strong><br /><a href="https://www.liquid-lab.tokyo">liquid.lab.tokyo</a></p>
+					</div>
+				</div>
+
+				<hr>
+
+				<p><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="credits.html">these fine folks</a></p>
 			</div>
 		</div>
+	</div>
 
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.2/masonry.pkgd.min.js"></script>
-		<script type="text/javascript">
-			$( document ).ready(function() {
-				var container = $('.images');
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.2/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var container = $('.images');
 
-				container.imagesLoaded( function() {
-					container.masonry({
-						itemSelector: '.uk-width-medium-1-2',
-					});
+			container.imagesLoaded(function() {
+				container.masonry({
+					itemSelector: '.uk-width-medium-1-2',
 				});
 			});
-		</script>	</body>
+		});
+	</script>
+</body>
+
 </html>
