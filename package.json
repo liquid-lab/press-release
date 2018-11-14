@@ -1,0 +1,22 @@
+{
+  "name": "liquid-lab-press-release",
+  "version": "1.0.0",
+  "description": "LiquidLabプレスリリースページ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liquid-lab/press-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liquid-lab/press-release/issues"
+  },
+  "homepage": "https://github.com/liquid-lab/press-release#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
